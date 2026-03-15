@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>Liczy 個人化管理</title>
+<title>個人化管理</title>
 <link rel="shortcut icon" href="/imgs/liczy.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -228,6 +228,12 @@
   #overview-content{
     margin-bottom: 100px;
   }
+  .nav-btn img{
+    height: 35px;
+  }
+  .tab_img{
+    height: 35px;
+  }
   </style>
 </head>
 <body>
@@ -238,8 +244,8 @@
 
 <div class="page" id="page-unlock">
   
-  <div class="unlock-logo"><img class="header_img" src="/imgs/去背09.png" alt="logo" style=" width: 135px; "></div>
-  <div><div class="unlock-title">Liczy 個人化管理</div></div>
+  <div class="unlock-logo"><img class="header_img" src="imgs/09.png" alt="logo" style="width: 135px;"></div>
+  <div class="unlock-title">Liczy 個人化管理</div>
   <div class="unlock-form">
     <div class="pin-row">
       <input class="pin-box" type="tel" maxlength="1" inputmode="numeric" pattern="[0-9]*">
@@ -258,7 +264,7 @@
   <div id="tab-overview" class="inner-page" style="display:none">
     <div class="page-header">
       <div style="display: flex; align-items: center;">
-        <img class="header_img" src="/imgs/去背09.png" alt="logo" style="width: 35px;">
+        <img class="tab_img" src="imgs/09.png" >
         <h1> 欠債總覽</h1>
       </div>
       <div class="subtitle">尚未完成的任務</div></div>
@@ -270,7 +276,7 @@
   <div id="tab-work" class="inner-page" style="display:none">
     <div class="page-header">
       <div style="display: flex; align-items: center;">
-        <img class="header_img" src="imgs/去背09.png" alt="logo" style="width: 35px;">
+        <img class="tab_img" src="imgs/09.png">
         <h1> 工作</h1>
       </div>
     </div>
@@ -281,7 +287,7 @@
   <div id="tab-study" class="inner-page" style="display:none">
     <div class="page-header">
       <div style="display: flex; align-items: center;">
-        <img class="header_img" src="imgs/02.png" alt="logo" style="width: 35px;">
+        <img class="tab_img" src="imgs/02.png" >
         <h1> 學業</h1>
       </div>
     </div>
@@ -292,7 +298,7 @@
   <div id="tab-personal" class="inner-page" style="display:none">
     <div class="page-header">
       <div style="display: flex; align-items: center;">
-        <img class="header_img" src="imgs/03.png" alt="logo" style="width: 35px;">
+        <img class="tab_img" src="imgs/03.png">
         <h1> 個人生活</h1>
       </div>
     </div>
@@ -304,23 +310,23 @@
     <div class="page-header">
       
       <div style="display: flex; align-items: center;">
-        <img class="header_img" src="imgs/04.png" alt="logo" style="width: 35px;">
-        <h1>🏆 成就</h1>
+        <img class="tab_img" src="imgs/04.png">
+        <h1> 成就</h1>
       </div></div>
     <div class="calendar-wrap" id="calendar-wrap"></div>
   </div>
-
+   
   <nav id="bottom-nav">
     <button class="nav-btn active" data-tab="overview"><span class="nav-icon">
-      <img class="header_img" src="imgs/去背09.png" alt="logo" style="width: 35px;"></span><span>欠債</span></button>
+      <img class="nav_img" src="imgs/09.png"></span><span>欠債</span></button>
     <button class="nav-btn" data-tab="work"><span class="nav-icon">
-      <img class="header_img" src="imgs/01.png" alt="logo" style="width: 35px;"></span><span>工作</span></button>
+      <img class="nav_img" src="imgs/01.png"></span><span>工作</span></button>
     <button class="nav-btn" data-tab="study"><span class="nav-icon">
-      <img class="header_img" src="imgs/02.png" alt="logo" style="width: 35px;"></span><span>學業</span></button>
+      <img class="nav_img" src="imgs/02.png""></span><span>學業</span></button>
     <button class="nav-btn" data-tab="personal"><span class="nav-icon">
-      <img class="header_img" src="imgs/03.png" alt="logo" style="width: 35px;"></span><span>個人</span></button>
+      <img class="hnav_img" src="imgs/03.png""></span><span>個人</span></button>
     <button class="nav-btn" data-tab="achievement"><span class="nav-icon">
-      <img class="header_img" src="imgs/04.png" alt="logo" style="width: 35px;"></span><span>成就</span></button>
+      <img class="nav_img" src="imgs/04.png""></span><span>成就</span></button>
   </nav>
 </div>
 
